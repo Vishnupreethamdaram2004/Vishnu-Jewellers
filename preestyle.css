@@ -177,7 +177,7 @@ footer {
     margin: auto;
 }
 
-/* Media Queries */
+
 @media (max-width: 768px) {
     header ul li {
         float: none;
@@ -196,7 +196,7 @@ footer {
         background: url('./images/backgroundtop.jpg') no-repeat center center;
         background-size: contain;
         min-height: 50vh;
-        width: 120%;
+        width: 100%;
     }
 
     #home h2 {
@@ -212,19 +212,22 @@ footer {
     #about {
         background: url('./images/backgrounddown.jpg') no-repeat center center;
         background-size: contain;
-        padding: 20px 20px;
-        min-height: 50vh;
-        width: 100%;
+        padding: 50px 20px; /* Increased padding to 50px to increase height */
+        min-height: 70vh; /* Increased height to 70vh */
+        width: 90%; /* Decreased width to 90% */
+        margin: 0 auto; /* Centering the section horizontally */
     }
 
     #about h2 {
         font-size: 2em;
-        padding: 5px;
+        padding: 10px;
+        text-align: left; /* Aligning text to the left */
     }
 
     #about p {
         font-size: 1em;
-        padding: 10px 5px;
+        padding: 5px 10px;
+        text-align: left; /* Aligning text to the left */
     }
 
     .gallery-grid {
