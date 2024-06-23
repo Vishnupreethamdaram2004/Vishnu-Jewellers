@@ -62,7 +62,6 @@ header h1 {
 }
 #home {
     background: url('./images/backgroundtop.jpg') no-repeat center center/cover;
-    background-size: cover;
     color: #fff;
     text-align: center;
     min-height: 120vh;
@@ -103,7 +102,6 @@ header h1 {
 }
 #about {
     background: url('./images/backgrounddown.jpg') no-repeat center center/cover;
-    background-size: cover;
     color: #fff;
     text-align: center;
     padding: 50px 20px;
@@ -166,6 +164,7 @@ footer {
         width: 95%;
     }
     #home {
+        background: url('./images/backgroundtop.jpg') no-repeat center center;
         background-size: contain;
         min-height: 60vh;
     }
@@ -178,6 +177,7 @@ footer {
         padding: 5px 10px;
     }
     #about {
+        background: url('./images/backgrounddown.jpg') no-repeat center center;
         background-size: contain;
         padding: 20px 20px;
     }
