@@ -178,7 +178,7 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 720px) {
+@media (max-width: 600px) {
     header ul li {
         float: none;
         display: inline;
