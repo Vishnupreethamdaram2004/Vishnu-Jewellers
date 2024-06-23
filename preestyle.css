@@ -61,7 +61,7 @@ body {
         padding: 20px 0;
     }
     #home {
-        background: url('https://www.masala.com/cloud/2023/10/02/Rashmika-Mandanna-4-scaled.jpg') no-repeat center center/cover;
+        background:url('./images/backgroundtop.jpg') no-repeat center center/cover;
         background-size: cover;
         color: #fff;
         text-align: center;
@@ -102,7 +102,7 @@ body {
         margin-bottom: 15px;
     }
     #about {
-        background: url('https://www.uniindia.com/cms/gall_content/2023/3/2023_3$largeimg25_Mar_2023_191755803.jpg') no-repeat center center/cover;
+        background: url('./images/backgrounddown.jpg') no-repeat center center/cover;
         background-size: cover;
         color: #fff;
         text-align: center;
