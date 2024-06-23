@@ -120,7 +120,7 @@ header h1 {
 }
 
 #about {
-    background: url('./images/backgroundddown1.jpg') no-repeat center center;
+    background: url('./images/backgrounddown.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -178,7 +178,7 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     header ul li {
         float: none;
         display: inline;
@@ -189,13 +189,13 @@ footer {
     }
 
     .container {
-        width: 120%;
+        width: 95%;
     }
 
     #home {
         background: url('./images/backgroundtop.jpg') no-repeat center center;
         background-size: contain;
-        min-height: 40vh;
+        min-height: 50vh;
         width: 100%;
     }
 
@@ -210,11 +210,11 @@ footer {
     }
 
     #about {
-        background: url('./images/backgroundddown1.jpg"') no-repeat center center;
+        background: url('./images/backgrounddown.jpg') no-repeat center center;
         background-size: contain;
-        padding: 70px 20px;
-        min-height: 70vh;
-        width: 90%;
+        padding: 20px 20px;
+        min-height: 50vh;
+        width: 100%;
     }
 
     #about h2 {
