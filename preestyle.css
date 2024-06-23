@@ -189,7 +189,7 @@ footer {
     }
 
     .container {
-        width: 100%; /* Set container width to 100% for full width */
+        width: 140%; /* Set container width to 100% for full width */
         max-width: 100%; /* Ensure it doesn't exceed full width */
     }
 
