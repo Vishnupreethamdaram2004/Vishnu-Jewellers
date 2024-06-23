@@ -192,12 +192,7 @@ footer {
         width: 95%;
     }
 
-    header {
-        width: 100%;
-        max-width: 100%;
-        padding: 10px 0;
-    }
-
+    
     #home {
         background: url('./images/backgroundtop.jpg') no-repeat center center;
         background-size: cover;
