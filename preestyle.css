@@ -190,77 +190,56 @@ footer {
 
     .container {
         width: 100%;
-        max-width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
     header {
-        width: 100%; /* Set header width to 100% for full width */
-        max-width: 100%; /* Ensure it doesn't exceed full width */
-    }
-
-    header h1 {
-        font-size: 2.5em;
-        margin-top: 0px;
-        font-weight: bold;
-    }
-
-    .live-gold-rate {
-        float: right;
-        margin-top: 10px;
-    }
-
-    .live-gold-rate a {
-        text-decoration: none;
-        color: #fff;
-        background-color: #fb8f09;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-size: 16px;
-    }
-
-    .live-gold-rate a:hover {
-        background-color: #e07b00;
+        width: 100%;
+        max-width: 100%;
+        padding: 10px 0;
     }
 
     #home {
         background: url('./images/backgroundtop.jpg') no-repeat center center;
-        background-size: contain;
+        background-size: cover;
         min-height: 50vh;
-        width: 100%; /* Set width to 100% for full width */
-        padding: 50px 20px; /* Adjusted padding */
+        width: 100%;
+        padding: 50px 20px;
+        margin: 0;
     }
 
     #home h2 {
         font-size: 2em;
         padding: 10px;
-        text-align: center; /* Centered text alignment */
+        text-align: center;
     }
 
     #home p {
         font-size: 1em;
         padding: 5px 10px;
-        text-align: center; /* Centered text alignment */
+        text-align: center;
     }
 
     #about {
         background: url('./images/backgrounddown.jpg') no-repeat center center;
-        background-size: contain;
-        padding: 50px 20px; /* Increased padding to 50px to increase height */
-        min-height: 70vh; /* Increased height to 70vh */
-        width: 100%; /* Set width to 100% for full width */
-        margin: 0 auto; /* Centering the section horizontally */
+        background-size: cover;
+        padding: 50px 20px;
+        min-height: 70vh;
+        width: 100%;
+        margin: 0;
     }
 
     #about h2 {
         font-size: 2em;
         padding: 10px;
-        text-align: left; /* Aligning text to the left */
+        text-align: left;
     }
 
     #about p {
         font-size: 1em;
         padding: 5px 10px;
-        text-align: left; /* Aligning text to the left */
+        text-align: left;
     }
 
     .gallery-grid {
@@ -269,5 +248,14 @@ footer {
 
     .product-grid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
     }
 }
