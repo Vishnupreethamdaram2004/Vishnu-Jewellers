@@ -164,8 +164,8 @@ footer {
         width: 95%;
     }
     #home {
-        background: url('./images/backgroundtop.jpg') no-repeat center center;
-        background-size: contain;
+        background: url('./images/backgroundtop.jpg') no-repeat center top;
+        background-size: cover;
         min-height: 60vh;
     }
     #home h2 {
@@ -177,8 +177,8 @@ footer {
         padding: 5px 10px;
     }
     #about {
-        background: url('./images/backgrounddown.jpg') no-repeat center center;
-        background-size: contain;
+        background: url('./images/backgrounddown.jpg') no-repeat center top;
+        background-size: cover;
         padding: 20px 20px;
     }
     #about h2 {
