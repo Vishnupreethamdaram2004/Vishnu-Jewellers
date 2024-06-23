@@ -196,7 +196,7 @@ footer {
         background: url('./images/backgroundtop.jpg') no-repeat center center;
         background-size: contain;
         min-height: 50vh;
-        width: 100%;
+        width: 120%;
     }
 
     #home h2 {
