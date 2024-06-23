@@ -189,14 +189,15 @@ footer {
     }
 
     .container {
-        width: 105%;
+        width: 100%; /* Set container width to 100% for full width */
+        max-width: 100%; /* Ensure it doesn't exceed full width */
     }
 
     #home {
         background: url('./images/backgroundtop.jpg') no-repeat center center;
         background-size: contain;
         min-height: 50vh;
-        width: 80%;
+        width: 100%;
     }
 
     #home h2 {
@@ -214,7 +215,7 @@ footer {
         background-size: contain;
         padding: 50px 20px; /* Increased padding to 50px to increase height */
         min-height: 70vh; /* Increased height to 70vh */
-        width: 90%; /* Decreased width to 90% */
+        width: 100%; /* Set width to 100% for full width */
         margin: 0 auto; /* Centering the section horizontally */
     }
 
