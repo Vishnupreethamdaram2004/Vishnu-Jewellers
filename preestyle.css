@@ -195,7 +195,8 @@ footer {
     #home {
         background: url('./images/backgroundtop.jpg') no-repeat center center;
         background-size: contain;
-        min-height: 60vh;
+        min-height: 50vh;
+        width: 100%;
     }
 
     #home h2 {
@@ -212,7 +213,8 @@ footer {
         background: url('./images/backgrounddown.jpg') no-repeat center center;
         background-size: contain;
         padding: 20px 20px;
-        min-height: 60vh;
+        min-height: 50vh;
+        width: 100%;
     }
 
     #about h2 {
