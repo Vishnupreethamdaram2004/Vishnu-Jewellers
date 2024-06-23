@@ -165,6 +165,10 @@ footer {
     .container {
         width: 95%;
     }
+    #home {
+        background-size: contain;
+        min-height: 60vh;
+    }
     #home h2 {
         font-size: 2em;
         padding: 10px;
@@ -172,6 +176,10 @@ footer {
     #home p {
         font-size: 1em;
         padding: 5px 10px;
+    }
+    #about {
+        background-size: contain;
+        padding: 20px 20px;
     }
     #about h2 {
         font-size: 2em;
@@ -183,5 +191,8 @@ footer {
     }
     .gallery-grid {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 }
